@@ -4,6 +4,12 @@
     box-sizing: border-box;
 
 }
+@media (min-width: 380px) {
+  html{
+    font-size: 20px;
+  }
+
+}
 html { scrollbar-width: none; }  body { -ms-overflow-style: none; } body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; }
 .content{
     width: 100vw;
@@ -26,7 +32,7 @@ header{
     font-family: "Ubuntu", sans-serif;
 }
 .body{
-    height: 110px;
+    height: 10vh;
     width: 90%;
     align-items: center;
     display: flex;
@@ -54,7 +60,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     display: grid;
-    grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
+    grid-template-rows: 16vh 16vh 16vh 16vh 16vh 16vh;
     gap: 20px;
 }
 .card1, .card2, .card3, .card4, .card5, .card6{
@@ -63,15 +69,17 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    box-shadow:rgba(0, 0, 0, 0.131) 5px 5px 5px;
 }
 
 .tit{
+    height: 30px;
     font-size: 1.2rem;
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
 }
 .par{
+    height: 60%;
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
 }
@@ -81,6 +89,7 @@ header{
     text-align: justify;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .dir1{
     height: 80%;
