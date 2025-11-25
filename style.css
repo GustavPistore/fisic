@@ -86,7 +86,7 @@ header{
 .dir1{
     height: 80%;
     width: 30%;
-    background-image: url(/img/mary.jpg);
+    background-image: url(img/mary.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 20px;
