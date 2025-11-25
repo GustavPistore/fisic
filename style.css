@@ -63,12 +63,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    transition-duration: 0.3s;
+
 }
-.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover{
-    background-color: #cccccc5f;
-    cursor: pointer;
-}
+
 .tit{
     font-size: 1.2rem;
     font-weight: bold;
