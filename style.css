@@ -54,7 +54,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     display: grid;
-    grid-template-rows: 30vh 20vh 20vh 20vh 20vh 20vh;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
     gap: 20px;
 }
 .card1, .card2, .card3, .card4, .card5, .card6{
