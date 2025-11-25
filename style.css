@@ -63,7 +63,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+    transition-duration: 0.3s;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover{
+    background-color: #cccccc5f;
+    cursor: pointer;
 }
 .tit{
     font-size: 1.2rem;
@@ -72,16 +76,14 @@ header{
 }
 .par{
     font-family: "Lato", sans-serif;
-
     font-size: 0.8rem;
 }
 .esq1{
     height: 60%;
     width: 60%;
+    text-align: justify;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
 }
 .dir1{
     height: 80%;
