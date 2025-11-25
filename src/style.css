@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html { scrollbar-width: none; }  body { -ms-overflow-style: none; } body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; }
+.content{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+.body{
+    height: 110px;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     font-family: "Ubuntu", sans-serif;
+}
+.apre{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.corpo{
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    width: 90%;
+    max-width: 500px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
+    gap: 20px;
+}
+.card1, .card2, .card3, .card4, .card5, .card6{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.tit{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+.par{
+    font-family: "Lato", sans-serif;
+
+    font-size: 0.8rem;
+}
+.esq1{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.dir1{
+    height: 80%;
+    width: 30%;
+    background-image: url(/img/mary.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
