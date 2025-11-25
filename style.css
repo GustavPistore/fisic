@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "roboto", sans-serif;
 }
 @media (min-width: 380px) {
   html{
@@ -29,7 +29,7 @@ header{
 .logo{
     font-size: 30px;
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
+
 }
 .body{
     height: 10vh;
@@ -37,10 +37,9 @@ header{
     align-items: center;
     display: flex;
     justify-content: center;
-     font-family: "Ubuntu", sans-serif;
+
 }
 .apre{
-    text-align: justify;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -60,7 +59,7 @@ header{
     margin-top: 20px;
     margin-bottom: 20px;
     display: grid;
-    grid-template-rows: 16vh 16vh 16vh 16vh 16vh 16vh;
+    grid-template-rows: 20vh 20vh 20vh 20vh 20vh 20vh;
     gap: 20px;
 }
 .card1, .card2, .card3, .card4, .card5, .card6{
@@ -76,17 +75,16 @@ header{
     height: 30px;
     font-size: 1.2rem;
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
+
 }
 .par{
     height: 60%;
-    font-family: "Lato", sans-serif;
     font-size: 0.8rem;
 }
 .esq1{
     height: 60%;
     width: 60%;
-    text-align: justify;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
