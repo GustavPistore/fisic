@@ -105,3 +105,13 @@ header {
         height: 140px;
     }
 }
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    background: #fff;
+    color: #444;
+    font-size: 1rem;
+    border-top: 1px solid #eee;
+}
